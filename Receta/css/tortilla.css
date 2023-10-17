@@ -1,13 +1,28 @@
 /**------------------------------------------------------------------------
- * ?                                Hoja de estilo de tortilla.html
+ * ?                Hoja de estilo de tortilla.html
  * @autor          :  Cristian Rodríguez Hidalgo    
  * @email          :  crh161205@gmail.com
  * @version        :  1.0
  * @Fecha          :  Octubre de 2023
- * @description    :  Trabajo de lenguaje de marcas
+ * @descripcion    :  Trabajo de lenguaje de marcas
  *------------------------------------------------------------------------**/
 
- body{
+@font-face {
+    font-family: ;
+    src: url();
+}
 
-    background-color: red;
- }
+body {
+    background-color: orange;
+    margin: 0;
+    padding: 0; /* Para que el wrapper se pegue a body */
+
+}
+
+#wrapper {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+    
+
+}
