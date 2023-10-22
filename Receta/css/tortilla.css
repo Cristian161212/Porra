@@ -1,5 +1,5 @@
 /**------------------------------------------------------------------------
- * ?                Hoja de estilo de tortilla.html
+ * ?                Hoja de estilo de Porra.html
  * @autor          :  Cristian Rodríguez Hidalgo    
  * @email          :  crh161205@gmail.com
  * @version        :  1.0
@@ -8,21 +8,38 @@
  *------------------------------------------------------------------------**/
 
 @font-face {
-    font-family: ;
+    font-family:Poppins, sans-serif ;
+    font-size: 16px;
     src: url();
 }
 
+
+
 body {
-    background-color: orange;
+    font-family: Poppins, sans-serif;
+    font-size: 16px ;
+    background-color: rgb(235,85,4);
     margin: 0;
     padding: 0; /* Para que el wrapper se pegue a body */
+
+}
+
+h1 {
+    font-family: Abril Fatface, serif;
+    font-size: 46px;
 
 }
 
 #wrapper {
     width: 70%;
     margin: 0 auto;
-    background-color: white;
+    background-color: rgb(235,85,4);
+    color: rgb(140,248,252);
     
+    
+
+}
+#title{
+
 
 }
