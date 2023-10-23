@@ -7,40 +7,64 @@
  * @descripcion    :  Trabajo de lenguaje de marcas
  *------------------------------------------------------------------------**/
 
-
+/* Buscar un par de fuentes que ecombinen para titulos y para contenido */
 @font-face {
     font-family:Poppins, sans-serif ;
-    font-size: 16px;
+    font-size: 1.2em;
     src: url();
 }
+    
+/* Poner siempre que utilicemos un layout complejo */
+/* Las medidas de ancho y alto se deben calcular del borde hacia adentro */
+*{box-sizing:border-box}
+#title {
+    text-align: center;
+    text-shadow: 2px 2px 0px orange,
+    -2px 2px 0px orange,
+    2px -2px 0px orange,
+    -2px -2px 0px orange;
+    color: white;
 
-
+}
 
 body {
+    background-image: url(../Img/26668.jpg);
     font-family: Poppins, sans-serif;
-    font-size: 16px ;
-    background-color: rgb(235,85,4);
+    font-size: 1.2em ; /* em y rem son medidas exclusivas para el texto, no usar px */
     margin: 0;
     padding: 0; /* Para que el wrapper se pegue a body */
 
-}
+} 
 
-h1 {
+h1, h2 {    
     font-family: Abril Fatface, serif;
     font-size: 46px;
+    margin: center;
+    padding: ;
+    /* text-decoration: overline underline; para subrayar o poner por arriba la raya */ 
 
 }
 
 #wrapper {
-    width: 70%;
+    width: 70%; /* Para width la medida suele ser en porcentaje */
     margin: 0 auto;
-    background-color: rgb(235,85,4);
-    color: rgb(140,248,252);
+    background-color: #E2DAC1;
+    color: #BD591D;
+    padding: 0 ;
     
     
 
 }
-#title{
+dt{ font-weight:bold; /* Para que salga en negrita */
+    font-variant: small-caps; /* El small caps sirve para que se vea todo en mayuscula pero sin ser mayuscula */
 
 
 }
+
+blockquote{
+    font-style: italic;
+    border-left: 4px solid #BD591D;
+    padding: 10px;
+
+}
+
