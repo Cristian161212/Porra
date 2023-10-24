@@ -24,7 +24,7 @@
     2px -2px 0px orange,
     -2px -2px 0px orange;
     color: white;
-
+    box-shadow: 
 }
 
 body {
@@ -40,7 +40,7 @@ h1, h2 {
     font-family: Abril Fatface, serif;
     font-size: 46px;
     margin: center;
-    padding: ;
+    padding: 0 ;
     /* text-decoration: overline underline; para subrayar o poner por arriba la raya */ 
 
 }
@@ -67,4 +67,6 @@ blockquote{
     padding: 10px;
 
 }
+ul{list-style-image: url}
 
+img{float: right;}
