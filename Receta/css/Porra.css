@@ -17,6 +17,8 @@
 /* Poner siempre que utilicemos un layout complejo */
 /* Las medidas de ancho y alto se deben calcular del borde hacia adentro */
 *{box-sizing:border-box}
+
+
 #title {
     text-align: center;
     text-shadow: 2px 2px 0px orange,
@@ -27,13 +29,18 @@
     box-shadow: 
 }
 
+blockquote{
+    font-style: italic;
+    border-left: 4px solid #BD591D;
+    padding: 10px;
+}
 body {
     background-image: url(../Img/26668.jpg);
     font-family: Poppins, sans-serif;
     font-size: 1.2em ; /* em y rem son medidas exclusivas para el texto, no usar px */
     margin: 0;
     padding: 0; /* Para que el wrapper se pegue a body */
-
+    text-align: left;
 } 
 
 h1, h2 {    
@@ -57,16 +64,92 @@ h1, h2 {
 }
 dt{ font-weight:bold; /* Para que salga en negrita */
     font-variant: small-caps; /* El small caps sirve para que se vea todo en mayuscula pero sin ser mayuscula */
+    /* text-decoration: overline underline; */
 
 
 }
 
-blockquote{
-    font-style: italic;
-    border-left: 4px solid #BD591D;
-    padding: 10px;
+
+/* RESPONSIVIDAD TOMAMOS CONTROL */
+/* VAMOS A HAVER QUE EL WRAPPER PASE AL 100% EN MOVILESS */
+/* ATENCIÓN MEDIA QUERY */
+
+@media only screen and (width<700px) {
+    #wrapper {
+        width: 95%; /* Redefino el ancho de wrapper para moviles */
+    }
+    img {
+        width: 100%;
+    }
 
 }
+
+
+
+
 ul{list-style-image: url}
 
-img{float: right;}
+img{/*float: right; /* Forma de colocar la imagen a la derecha */
+    margin: auto;
+    display: block;
+    width: 20%; /* es un 50% del espacio que hay en su bloque contenedor */
+                /* poner SIEMPRE UN PORCENTAKE DEL ANCHO DEL BLOQU */
+
+
+} 
+#imagen {
+    float: right;
+    margin-right: 100px;
+    width: 300px;
+
+}
+#tomates{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+
+}
+#ajo{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
+#pan{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
+#aceite{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
+#sal{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
+#vinagre{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
+#jamon{
+    float: right;
+    width: 130px;
+    margin-right: 100px;
+}
+#huevo{
+    float: right;
+    width: 90px;
+}
+#atun{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
+#patatas{
+    float: right;
+    width: 90px;
+    margin-right: 100px;
+}
