@@ -81,6 +81,39 @@ dt{ font-weight:bold; /* Para que salga en negrita */
     img {
         width: 100%;
     }
+    #patatas{
+        width: 100;
+    }
+    #imagen{
+        width: 100%;
+    }
+    #tomates{
+        width: 100%;
+    }
+    #ajo{
+        width: 100%;
+    }
+    #pan{
+        width: 100%;
+    }
+    #aceite{
+        width: 100%;
+    }
+    #sal{
+        width: 100%;
+    }
+    #vinagre{
+        width: 100%;
+    }
+    #jamon{
+        width: 100%;
+    }
+    #huevo{
+        width: 100%;
+    }
+    #atun{
+        width: 100%;
+    }
 
 }
 
