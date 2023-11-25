@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween</title>
+    <link rel="stylesheet" href="./css/halloween.css">
+    <script src="./js/halloween.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    
+</head>
+<body>
+    
+    <!-- This exercise is made just for fun -->
+    <!-- WARNING: its not responsive, onlu for computers & laptops -->
+    <!-- I have to search for an image, a wallpaper image -->
+    <div id="escenario">
+        <p style="font-family: 'Sofia',serif;" id="aviso1">Don´t touch the door...</p>
+        <p style="font-family: 'Sofia',serif;" id="aviso2">full moon...</p>
+        <p style="font-family: 'Sofia',serif;" id="aviso3">look for the pumpkin...</p>
+        <!-- Nada dentro -->
+        <img id="horse" src="./img/Caballo.png" alt="">
+        <div id="pumpkin" onmouseover="show('horse'); sound('screamersound3')" onmouseout="hide('horse'); silence('screamersound3')"></div>
+
+        <img id="witch" src="./img/bruja.gif" alt="">
+        <div id="puerta" onmouseover="show('witch'); sound('screamersound')" onmouseout="hide('witch'); silence('screamersound')"></div>
+
+
+        <img id="zombie" src="./img/zombie.png" alt="">
+        <div id="moon" onmouseover="show('zombie'); sound('screamersound2')" onmouseout="hide('zombie'); silence('screamersound2')"></div>
+
+
+        <audio controls id="screamersound">
+            <source src="./sound/screamer.mp3" type="audio/mp3">
+        </audio>
+        <audio controls id="screamersound2" >
+            <source src="./sound/zombie.mp3" type="audio/mp3">
+        </audio>
+        <audio controls id="screamersound3">
+            <source src="./sound/caballo.mp3" type="audio/mp3 ">
+        </audio>
+    </div>   
+
+    <div id="">
+
+    </div>  
+    </div>
+    <!-- We are going to fix an specific area for an event for example the moon -->
+
+
+
+</body>
+</html>

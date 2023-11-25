@@ -1,0 +1,116 @@
+/**------------------------------------------------------------------------
+ * ?                                Halloween stylesheet
+ * @author         :  Cristian Rodríguez Hidalgo
+ * @email          :  crh161205@gmail.com
+ * @repo           :  
+ * @createdOn      :  
+ * @description    :  
+ *------------------------------------------------------------------------**/
+
+ /* External fonts */
+body{
+    background-color: black;
+}
+
+
+ /* Scenario */
+#escenario {
+    width: 2184px;
+    height: 1124px;
+    background-image: url(../img/background.jpg);
+    margin: auto;
+    position: relative;
+}
+#moon{
+    top: 0px;
+    left: 925px;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    /* border: 2px solid purple; */
+    right: 850px;
+    border-radius: 400px;
+}
+#puerta{
+    width: 80px;
+    right: 900px;
+    height: 150px;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 600px;
+    
+}
+#witch{
+    position:absolute;
+    top: 600px;
+    right: 900px;
+    width: 100px;
+    visibility: hidden;
+}
+#aviso1{
+    font-size: 40px;
+    position: absolute;
+    color: orange;
+    top: 500px;
+    margin-left:600px;
+
+}
+#zombie{
+    width: 150px;
+    top: 0px;
+    margin-left: 1050px;
+    visibility: hidden;
+}
+
+#aviso2{
+    font-size: 40px;
+    position: absolute;
+    color: orange;
+    margin-left: 650px;
+    top: 150px;
+
+}
+#screamersound {
+    top: 10px;
+    position: absolute;
+    left: 400px;
+
+}
+#screamersound2{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+} /* Estos dos para variar la zona en la que estan los controles de sonido   */
+
+#aviso3{
+    position: absolute;
+    font-size: 40px;
+    color: orange;
+    top: 750px;
+    margin-left: 900px;
+
+}
+
+#horse{
+    width: 1500px;
+    right: 200px;
+    position: absolute;
+    top: 100px;
+    visibility: hidden;
+}
+
+#pumpkin{
+    width: 300px;
+    right: 400px;
+    height: 225px;
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 825px;
+}
+
+#screamersound3{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+
+}
