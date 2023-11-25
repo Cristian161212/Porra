@@ -80,7 +80,7 @@ body{
     position: absolute;
     top: 10px;
     left: 10px;
-} /* Estos dos para variar la zona en la que estan los controles de sonido   */
+} /* Estos dos para variar la zona en la que estan los controles de sonido, pero al final los he quitado porque me han dicho que no hacía falta   */
 
 #aviso3{
     position: absolute;
